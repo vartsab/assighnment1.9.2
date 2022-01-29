@@ -11,11 +11,11 @@ public class Book {
         this.publicationYear = publicationYear;
     }
 
-    public String getBookName () {
+    public final String getBookName () {
         return this.bookName;
     }
 
-    public Author getAuthor () {
+    public final Author getAuthor () {
         return this.author;
     }
 

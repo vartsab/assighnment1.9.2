@@ -1,5 +1,7 @@
 package com.company;
 
+import java.lang.constant.Constable;
+
 public class Author {
     private String firstName;
     private String lastName;
@@ -9,14 +11,14 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public String getAuthorFirstName () {
+    public final String getAuthorFirstName () {
         return this.firstName;
     }
-    public String getAuthorLastName () {
+    public final String getAuthorLastName () {
         return this.lastName;
     }
 
-    public String getFullAuthorsName () {
+    public final String getFullAuthorsName () {
         return this.firstName + " " + this.lastName;
     }
 }
